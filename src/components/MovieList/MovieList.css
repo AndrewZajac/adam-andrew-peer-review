@@ -1,0 +1,14 @@
+.movies {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	gap: 10px;
+	justify-content: space-around;
+}
+
+.movies .card {
+	/* flex: 0 1 calc(20% - 1px);  */
+	
+	box-sizing: border-box;
+	margin: 8px;
+}
